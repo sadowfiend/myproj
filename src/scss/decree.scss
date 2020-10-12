@@ -1,0 +1,24 @@
+.decree{
+  background: #333333;
+
+  &__title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 100px;
+    color: white;
+    font-weight: 300;
+  }
+  &__tabs{
+
+  }
+  &__tabs-btns{
+    display: flex;
+    justify-content: center;
+  }
+  &__tab{
+    width: 442px;
+    height: 550px;
+    list-style-type: none;
+  }
+}

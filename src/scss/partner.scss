@@ -1,0 +1,15 @@
+.partner{
+  background: #333333;
+  overflow: hidden;
+  &__title{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  .gazprom{
+    margin-bottom: 80px;
+  }
+}

@@ -1,0 +1,28 @@
+.best{
+  padding: 150px 0 150px;
+  background: #333333;
+
+  .container{
+    background: url("../img/best/bg.png") center/cover;
+  }
+  &__years{
+    margin: 126px 103px 126px 190px;
+    font-size: 90px;
+  }
+  &__stars{
+    margin: 171px 95px 181px 0;
+    .box{
+      .star{
+        margin-right: 25px;
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  &__stars-text{
+    font-size: 36px;
+    color: white;
+    max-width: 540px;
+  }
+}

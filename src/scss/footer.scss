@@ -1,0 +1,13 @@
+.footer{
+  background: #333333;
+  color: #989898;
+  padding-bottom: 30px;
+  &__line{
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #565656;
+    height: 1px;
+
+  }
+}

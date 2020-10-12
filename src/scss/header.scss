@@ -1,0 +1,63 @@
+.header {
+  padding-top: 50px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+
+  &__nav {
+    margin: 0 auto;
+
+    ul {
+      list-style-type: none;
+      margin-right: 167px;
+      text-transform: uppercase;
+
+
+    }
+
+    li {
+      margin-right: 63px;
+
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a {
+        color: #FFFFFF;
+        text-decoration: none;
+
+        &:hover {
+          color: #D1A954;
+          transition: all 0.5s;
+        }
+
+      }
+    }
+  }
+
+  &__contact {
+
+    a {
+      color: #FFFFFF;
+      text-decoration: none;
+
+      &:hover {
+        color: #D1A954;
+        transition: all 0.5s;
+      }
+
+      &:before {
+        content: "";
+        position: absolute;
+        width: 90px;
+        height: 1px;
+        background: #D1A954;
+        top: 75px;
+
+      }
+    }
+  }
+}

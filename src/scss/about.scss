@@ -1,0 +1,55 @@
+.about{
+  background: #333333;
+  padding: 150px 0 150px;
+  color: white;
+  &__box{
+    margin-left: 10rem;
+  }
+  &__title{
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  &__box{
+    margin-top: 100px;
+    .paragraph{
+      margin-right: 30px;
+      .subTitle{
+        font-size: 21px;
+      }
+      .text{
+        max-width: 445px;
+        margin-top: 40px;
+        font-size: 14px;
+      }
+    }
+    .figures{
+      margin-right: 65px;
+      .subTitle{
+        font-size: 21px;
+      }
+      .sofa{
+        margin-top: 40px;
+      }
+      .place{
+        margin-top: 15px;
+        font-size: 16px;
+      }
+      .history{
+        margin-top: 28px;
+      }
+      .years{
+        margin-top: 18px;
+        font-size: 16px;
+      }
+
+    }
+    .theatre{
+      width: 350px;
+      height: 292px;
+    }
+  }
+}
